@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -175,6 +176,7 @@
     <Compile Include="Core\ActionResult\CsvResult.cs" />
     <Compile Include="Core\ActionResult\XmlResult.cs" />
     <Compile Include="Core\Filters\SessionFilter.cs" />
+    <Compile Include="Core\Infrastructer\ThemViewEngine.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -241,6 +243,7 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\FilterTest\Index.cshtml" />
+    <Content Include="Views\Thems\Sample\Home\About.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
