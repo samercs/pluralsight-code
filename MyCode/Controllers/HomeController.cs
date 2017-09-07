@@ -26,5 +26,11 @@ namespace MyCode.Controllers
 
             return View();
         }
+
+        public ActionResult MakeError()
+        {
+            var test = int.Parse("tests");
+            return View();
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System.Web;
 using System.Web.Mvc;
+using MyCode.Core.Filters;
 
 namespace MyCode
 {
@@ -7,7 +8,7 @@ namespace MyCode
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            filters.Add(new HandleErrorAttribute());
+            filters.Add(new ErrorHandling());
         }
     }
 }
