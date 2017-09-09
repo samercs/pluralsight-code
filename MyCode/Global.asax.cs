@@ -23,6 +23,8 @@ namespace MyCode
 
             ModelBinderProviders.BinderProviders.Insert(0, new CustomBindProvider());
 
+            ValueProviderFactories.Factories.Insert(0, new HeaderValueFactory());
+
             AreaRegistration.RegisterAllAreas();
             GlobalFilters.Filters.Add(new SessionFilter());
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

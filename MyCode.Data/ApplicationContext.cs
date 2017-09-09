@@ -12,6 +12,7 @@ namespace MyCode.Data
     {
         public DbSet<ErrorLog> ErrorLogs { get; set; }
         public DbSet<DataBindTest> DataBindTests { get; set; }
+        public DbSet<HeaderUserInfo> HeaderUserInfos { get; set; }
         public ApplicationContext() : base()
         {
             

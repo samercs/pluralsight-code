@@ -56,6 +56,10 @@
     <Compile Include="Migrations\201709090939129_AddTestBind.Designer.cs">
       <DependentUpon>201709090939129_AddTestBind.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709091202260_AddHeaderUserInfo.cs" />
+    <Compile Include="Migrations\201709091202260_AddHeaderUserInfo.Designer.cs">
+      <DependentUpon>201709091202260_AddHeaderUserInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -75,6 +79,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709090939129_AddTestBind.resx">
       <DependentUpon>201709090939129_AddTestBind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709091202260_AddHeaderUserInfo.resx">
+      <DependentUpon>201709091202260_AddHeaderUserInfo.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

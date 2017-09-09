@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="DataBindTest.cs" />
     <Compile Include="ErrorLog.cs" />
+    <Compile Include="HeaderBase.cs" />
+    <Compile Include="HeaderUserInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

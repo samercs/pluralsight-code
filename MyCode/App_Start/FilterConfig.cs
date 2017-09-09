@@ -8,7 +8,7 @@ namespace MyCode
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            filters.Add(new ErrorHandling());
+            //filters.Add(new ErrorHandling());
         }
     }
 }
