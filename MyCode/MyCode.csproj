@@ -181,6 +181,7 @@
     <Compile Include="Core\DataBind\HeaderValueProvider.cs" />
     <Compile Include="Core\Filters\ErrorHandling.cs" />
     <Compile Include="Core\Filters\HttpAuthntication.cs" />
+    <Compile Include="Core\Filters\MobileAppSelector.cs" />
     <Compile Include="Core\Filters\SessionFilter.cs" />
     <Compile Include="Core\Infrastructer\ThemViewEngine.cs" />
     <Compile Include="Global.asax.cs">
@@ -253,6 +254,7 @@
     <Content Include="Views\Home\MakeError.cshtml" />
     <Content Include="Views\TestActionResult\TestCustomBind.cshtml" />
     <Content Include="Views\Test\TestCustomValueProvider.cshtml" />
+    <Content Include="Views\Test\Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

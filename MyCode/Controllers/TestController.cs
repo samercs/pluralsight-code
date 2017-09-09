@@ -30,5 +30,11 @@ namespace MyCode.Controllers
         {
             return Json("You are base the security check ...");
         }
+
+        [MobileAppSelector]
+        public ActionResult Mobile()
+        {
+            return View();
+        }
     }
 }
