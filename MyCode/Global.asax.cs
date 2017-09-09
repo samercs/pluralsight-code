@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using MyCode.Core.DataBind;
 using MyCode.Core.Filters;
 using MyCode.Core.Infrastructer;
 
@@ -19,6 +20,8 @@ namespace MyCode
             {
                 ViewEngines.Engines.Insert(0, new ThemViewEngine(ConfigurationManager.AppSettings["ActiveThem"]));
             }
+
+            ModelBinderProviders.BinderProviders.Insert(0, new CustomBindProvider());
 
             AreaRegistration.RegisterAllAreas();
             GlobalFilters.Filters.Add(new SessionFilter());

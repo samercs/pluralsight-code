@@ -11,6 +11,7 @@ namespace MyCode.Data
     public class ApplicationContext: DbContext
     {
         public DbSet<ErrorLog> ErrorLogs { get; set; }
+        public DbSet<DataBindTest> DataBindTests { get; set; }
         public ApplicationContext() : base()
         {
             

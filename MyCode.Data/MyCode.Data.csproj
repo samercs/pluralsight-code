@@ -52,6 +52,10 @@
     <Compile Include="Migrations\201709072011041_AddErrorLogs.Designer.cs">
       <DependentUpon>201709072011041_AddErrorLogs.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709090939129_AddTestBind.cs" />
+    <Compile Include="Migrations\201709090939129_AddTestBind.Designer.cs">
+      <DependentUpon>201709090939129_AddTestBind.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -68,6 +72,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201709072011041_AddErrorLogs.resx">
       <DependentUpon>201709072011041_AddErrorLogs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709090939129_AddTestBind.resx">
+      <DependentUpon>201709090939129_AddTestBind.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
